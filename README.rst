@@ -2,10 +2,7 @@
 FreeIPA-BackDoor
 ================
 
-DO NOT USE IN PRODUCTION
-------------------------
-
-An absolutely horrendous (and temporary) back door that can be installed on a
+A Python script that can be installed on a
 FreeIPA server to facilitate API access by external clients, without mucking
 around with Kerberos certificates for the external client.
 A typical use case might be that you are prototyping against the excellent,
@@ -24,7 +21,7 @@ Instructions
 
     $ export KRB_PRINCIPAL=admin
 
-    $ export KRB_PRINCIPAL=password
+    $ export KRB_PASSWORD=password
 
 3. Run the software:
 
