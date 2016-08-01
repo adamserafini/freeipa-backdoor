@@ -21,7 +21,7 @@ Instructions
 
     $ export KRB_PRINCIPAL=admin
 
-    $ export KRB_PRINCIPAL=password
+    $ export KRB_PASSWORD=password
 
 3. Run the software:
 
