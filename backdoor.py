@@ -26,4 +26,4 @@ def call_freeipa(json_req):
 def api():
     return json.loads(call_freeipa(json.dumps(request.json)))
 
-run(host='0.0.0.0', port=8081)
+run(host='0.0.0.0', port=sys.argv[1])
